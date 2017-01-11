@@ -1,4 +1,4 @@
-# q_learning_demo
+# Q_learning_demo
 This is the code for the challange video "How to use Q Learning in Video Games Easily" by Siraj Raval on Youtube
 
 ##Overview
@@ -15,13 +15,13 @@ called [Q learning](https://en.wikipedia.org/wiki/Q-learning).
 ##Modifications
 
 Some of the things changed are:
-	-Fixed to be compatible with Python 3
-	-Added a negative reward to avoid hitting the walls and the boundaries of the grid
-	-Made a constrain of minimum score so it will start a new episode below a limit value. This was made to discourage the agent going to path searches to far from the optimal path. The limit value need to change acording to the size of the grid.
-	-The discount factor now increases with each successful episode to the limit of 0.8. Other functions with a slower growth at the beginning might be better. The literature suggests that a discount value to close to 1 may make it more difficult to the algorithm to converge or make it not stable
-	-Size of each square rescalable according to the size of the grid
-	-Placement of walls, goals and the initial position of the agent. Better convergence may be achieved by making the initial position of the agent random for each episode, but that was not made just to keep it simple while testing the code
-	-Time step was decreased also for testing, making it show the results a bit quicker 
+	●Fixed to be compatible with Python 3
+	●Added a negative reward to avoid hitting the walls and the boundaries of the grid
+	●Made a constrain of minimum score so it will start a new episode below a limit value. This was made to discourage the agent going to path searches to far from the optimal path. The limit value need to change acording to the size of the grid.
+	●The discount factor now increases with each successful episode to the limit of 0.8. Other functions with a slower growth at the beginning might be better. The literature suggests that a discount value to close to 1 may make it more difficult to the algorithm to converge or make it not stable
+	●Size of each square rescalable according to the size of the grid
+	●Placement of walls, goals and the initial position of the agent. Better convergence may be achieved by making the initial position of the agent random for each episode, but that was not made just to keep it simple while testing the code
+	●Time step was decreased also for testing, making it show the results a bit quicker 
 
 ##Dependencies
 
